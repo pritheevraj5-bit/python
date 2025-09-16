@@ -1,0 +1,15 @@
+l=[]
+n=int(input("enter the elements to be added in l:"))
+for i in range (0,n):
+    a=input("enter the elements to be added")
+    l.append(a)
+print(l)
+print(l[0])
+print(l[4])
+print(l[2])
+print(l[2:])
+print(l[2:])
+l.extend([2,4,6])
+print(l)
+l.insert(4,199)
+print(l)
